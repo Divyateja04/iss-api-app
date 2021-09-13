@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  overflow-x: hidden;
+  scrollbar-width: none; //for firefox
+  &::-webkit-scrollbar{
+    display: none; //for edge and chrome and safari
+  }
+  background-color: black;
+  color: white;
+  
+}
+
+.sections {
+  width: 100%;
+  position: relative;
+
+  > * {
+    width: 100%;
+  }
+}
+
+.row{
+  justify-content: center;
+  height: 100vh;
+}
