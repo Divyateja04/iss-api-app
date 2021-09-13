@@ -15,9 +15,14 @@ export default class Body extends React.Component {
               })
             .then(resp => resp.json())
             .then(data => {
-            this.setState({latitude: data["iss_position"]["latitude"]});
-            this.setState({longitude: data["iss_position"]["longitude"]});
-        });
+                this.setState({latitude: data["iss_position"]["latitude"]});
+                this.setState({longitude: data["iss_position"]["longitude"]})
+            })
+            .catch(err => {
+                this.setState({latitude: "Sorry, Error Occurred"});
+                this.setState({longitude: "Sorry, Error Occurred"})
+                console.log(err.message);
+            });;
     }
 
     render() {
