@@ -10,7 +10,9 @@ export default class Body extends React.Component {
 	}
 
     componentDidMount () {
-            fetch("http://api.open-notify.org/iss-now.json")
+            fetch("https://cors-anywhere.herokuapp.com/http://api.open-notify.org/iss-now.json", {
+                headers: { Origin: window.location.host }
+              })
             .then(resp => resp.json())
             .then(data => {
             this.setState({latitude: data["iss_position"]["latitude"]});
