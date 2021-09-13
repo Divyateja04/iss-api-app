@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/iss-api-app/static/css/main.f972010d.chunk.css",
+    "main.js": "/iss-api-app/static/js/main.4c5bd7db.chunk.js",
+    "main.js.map": "/iss-api-app/static/js/main.4c5bd7db.chunk.js.map",
+    "runtime-main.js": "/iss-api-app/static/js/runtime-main.a37f3ab0.js",
+    "runtime-main.js.map": "/iss-api-app/static/js/runtime-main.a37f3ab0.js.map",
+    "static/js/2.d2f92fc1.chunk.js": "/iss-api-app/static/js/2.d2f92fc1.chunk.js",
+    "static/js/2.d2f92fc1.chunk.js.map": "/iss-api-app/static/js/2.d2f92fc1.chunk.js.map",
+    "index.html": "/iss-api-app/index.html",
+    "static/css/main.f972010d.chunk.css.map": "/iss-api-app/static/css/main.f972010d.chunk.css.map",
+    "static/js/2.d2f92fc1.chunk.js.LICENSE.txt": "/iss-api-app/static/js/2.d2f92fc1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a37f3ab0.js",
+    "static/js/2.d2f92fc1.chunk.js",
+    "static/css/main.f972010d.chunk.css",
+    "static/js/main.4c5bd7db.chunk.js"
+  ]
+}
