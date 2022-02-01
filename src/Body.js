@@ -10,15 +10,15 @@ export default class Body extends React.Component {
 	}
 
     componentDidMount () {
-            fetch("https://cors-anywhere.herokuapp.com/http://api.open-notify.org/iss-now.json", {
+            fetch("https://api.wheretheiss.at/v1/satellites/25544", {
                 method: "GET",
                 mode: 'cors',
-                headers: { 'Content-Type': 'application/json' },
               })
             .then(resp => resp.json())
             .then(data => {
-                this.setState({latitude: data["iss_position"]["latitude"]});
-                this.setState({longitude: data["iss_position"]["longitude"]})
+                console.log(data)
+                this.setState({latitude: data["latitude"]});
+                this.setState({longitude: data["longitude"]})
             })
             .catch(err => {
                 this.setState({latitude: "Sorry, Error Occurred"});
