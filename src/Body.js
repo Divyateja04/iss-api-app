@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default class Body extends React.Component {
     constructor() {
@@ -11,7 +11,9 @@ export default class Body extends React.Component {
 
     componentDidMount () {
             fetch("https://cors-anywhere.herokuapp.com/http://api.open-notify.org/iss-now.json", {
-                headers: { Origin: window.location.host }
+                method: "GET",
+                mode: 'cors',
+                headers: { 'Content-Type': 'application/json' },
               })
             .then(resp => resp.json())
             .then(data => {
