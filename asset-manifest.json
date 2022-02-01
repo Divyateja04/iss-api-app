@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/iss-api-app/static/css/main.f972010d.chunk.css",
-    "main.js": "/iss-api-app/static/js/main.37df0a6c.chunk.js",
-    "main.js.map": "/iss-api-app/static/js/main.37df0a6c.chunk.js.map",
+    "main.js": "/iss-api-app/static/js/main.f3b10b55.chunk.js",
+    "main.js.map": "/iss-api-app/static/js/main.f3b10b55.chunk.js.map",
     "runtime-main.js": "/iss-api-app/static/js/runtime-main.a37f3ab0.js",
     "runtime-main.js.map": "/iss-api-app/static/js/runtime-main.a37f3ab0.js.map",
     "static/js/2.1d2ba5dd.chunk.js": "/iss-api-app/static/js/2.1d2ba5dd.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.a37f3ab0.js",
     "static/js/2.1d2ba5dd.chunk.js",
     "static/css/main.f972010d.chunk.css",
-    "static/js/main.37df0a6c.chunk.js"
+    "static/js/main.f3b10b55.chunk.js"
   ]
 }
